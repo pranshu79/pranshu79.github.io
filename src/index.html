@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body class = "bg-gray-100 dark:bg-black">
+
+
+    <!-- Navigation Bar -->
+    <Navbar>
+    <nav class="fixed z-20 w-full bg-gray-100 dark:bg-black backdrop-blur navbar shadow-2xl shadow-gray-600/5 border-b border-gray-100 dark:border-gray-800 peer-checked:navbar-active dark:shadow-none">
+        <div class="xl:container m-auto px-6 md:px-12 lg:px-6">
+            <div class="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0 lg:py-5">
+                <div class="w-full items-center flex justify-between lg:w-auto">
+                    <h1 class = "dark:text-gray-100 text-3xl">Portfo<span class="text-pink-600">lio</span></h1>
+                    <label for="hbr" class="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
+                        <div aria-hidden="true" class="m-auto h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
+                        <div aria-hidden="true" class="m-auto mt-2 h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
+                    </label>
+                </div>
+                <div class="navmenu hidden w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-100 rounded-3xl shadow-2xl shadow-gray-300/20 bg-white dark:bg-gray-800 lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0">
+                    <div class="text-gray-600 dark:text-gray-300 lg:pr-4">
+                        <ul class="space-y-6 tracking-wide font-medium text-base lg:text-sm lg:flex lg:space-y-0">
+                            <li>
+                                <a href="#hero" class="block md:px-4 transition  text-pink-600 hover:text-gray-600 ">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about" class="block md:px-4 transition hover:text-primary hover:text-pink-600 dark:hover:text-primaryLight">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#education" class="block md:px-4 transition hover:text-primary hover:text-pink-600 dark:hover:text-primaryLight">
+                                    <span>Education</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#skills" class="block md:px-4 transition hover:text-primary hover:text-pink-600 dark:hover:text-primaryLight">
+                                    <span>Skills</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#projects" class="block md:px-4 transition hover:text-primary hover:text-pink-600 dark:hover:text-primaryLight">
+                                    <span>Projects</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="block md:px-4 transition hover:text-primary hover:text-pink-600 dark:hover:text-primaryLight">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </Navbar>
+
+                                    
+
+    <!-- Hero Section -->
+
+    <Hero id = "hero">
+
+    <section class="dark:text-gray-100">
+        <div class="container flex flex-col justify-center p-6 pt-24  mx-auto sm:py-12 lg:py-36 xl:px-40 lg:flex-row lg:justify-between">
+            <div class="flex flex-col  justify-center p-12 lg:p-4 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+                <h1 class="text-2xl leading-none sm:text-[26px] font-bold">Hello, it's me
+                    <br>
+                    <p class="text-pink-600 mt-4 font-bold text-6xl">Pranshu</p>
+                </h1>
+                <h1 class="mt-6 mb-6 text-2xl ">Junior Undergraduate,
+                    <p class="text-pink-600"> Electical Engineering,</p>
+                    <p class = "font-extralight">Indian Institute of Technology (BHU), Varanasi</p>
+                </h1>
+                <div class="flex space-x-8 text-4xl justify-center lg:justify-start ">
+                    <a href="https://github.com/pranshu79"><i class="fa-brands fa-github hover:text-pink-600"></i></a>
+                    <a href="mailto:pranshu.kedia.eee21@itbhu.ac.in"><i class="fa-solid fa-envelope hover:text-pink-600"></i></a>
+                    <a href="https://www.linkedin.com/in/pranshu-kedia-4376b4256/"><i class="fa-brands fa-linkedin hover:text-pink-600"></i></a>
+                </div>
+                <div class="mt-8 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+                    <a href="https://mail.google.com/mail/u/0/#sent/QgrcJHsbgZrBwZhKKwHLFkmVNqmtVTrXkhl?projector=1&messagePartId=0.1" rel="noopener noreferrer" class="px-8 py-3 text-lg font-semibold rounded-3xl border-pink-600 border-[1px] text-pink-600 hover:bg-pink-600 hover:text-white hover:border-white">Resume</a>
+                </div>
+            </div>
+            <div class="items-center justify-center  mt-8 lg:mt-0 h-72 sm:h-80 md:h-[500px] hidden lg:block">
+                <img src="assets/My_image.png" alt="" class="object-contain h-72 sm:h-80  md:h-[500px] rounded-full">
+            </div>
+        </div>
+    </section>
+
+    </Hero>
+
+    <!-- About Section -->
+    <About id = "about">
+        <section class = "dark:text-gray-100">
+                    <div class="container flex flex-col justify-center  lg:mt-0 mx-auto sm:py-12 lg:pt-36 lg:pb-36 xl:pt-12 xl:px-40 sm:flex-row lg:justify-between">
+                        <div class="flex flex-col  justify-center p-12  text-center rounded-sm lg:max-w-md xl:max-w-lg ">
+                            <h1 class="text-xl leading-none sm:text-[20px] font-medium tracking-wider xl:ml-20 xl:text-3xl">About Me.       
+                        </div>
+                        <div class="flex items-center  justify-center px-16 xl:ml-48 xl:px-12 ">
+                            <p class="font-light text-gray-600 tracking-wider lg:tracking-widest file text-base xl:text-lg">I am a junior undergraduate at IIT BHU,Varanasi, persuing Electrical Engineering .My interests broadly includes Machine Learning, Deep learning,Web development, Computer Vision, Robotics.I am still exploring Various other fields. My hobby is to watch and play cricket in my free time </p>
+                        </div>
+                    </div>
+        </section>
+    </About>
+
+    <!-- Education Section -->
+    <Education id = "education">
+        <section class = "dark:text-gray-100 mt-20 sm:mt-0">
+            <div class="container flex flex-col justify-center md:mt-10 lg:mt-0 mx-auto md:mx-[-24px] lg:mx-16 xl:px-40 sm:flex-row lg:justify-between">
+                <div class="flex flex-col  justify-center sm:pl-8 sm:pt-16  md:pt-0 md:pl-0 text-center rounded-sm lg:max-w-md xl:max-w-lg ">
+                    <h1 class="text-xl leading-none sm:text-[20px] font-medium tracking-wider xl:ml-20 xl:text-3xl">Education.
+                        <br>
+                        <i class="fa-solid fa-graduation-cap text-2xl md:text-4xl text:gray-800 dark:text-gray-100"></i>       
+                </div>
+                <div class="items-center text-center text-gray-600 sm:text-start px-16 md:pt-0 pt-12 xl:ml-56  xl:text-xl">
+                    <p class="font-light tracking-wider lg:tracking-widest file text-base xl:text-xl ">​B.Tech+M.Tech Dual Degree 
+                        <br>
+                        <p>Electrical Engineering</p>
+                        <p class = "text-pink-600">Indian Institute Of Technology (BHU),Varanasi</p>
+                        <p>2021 - 2026</p>
+                </div>
+            </div>
+</section>
+    </Education>
+
+    <!-- Skills section -->
+    <Skills id = "skills">
+        <section>
+
+            <section class="dark:bg-black">
+                <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl sm:py-48">
+                  <div>
+                    <div class="">
+                      <p class="text-2xl  text-center font-medium tracking-tight text-gray-800 dark:text-gray-100 sm:text-7xl">
+                        Skills
+                      </p>
+                    </div>
+                  </div>
+                  <div class="">
+                    <div class="max-w-xl py-6 mx-auto  lg:max-w-7xl">
+                      <h2 class="sr-only">Features.</h2>
+                      <div>
+                        <div class="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:space-y-0 sm:mt-16">
+                          <div>
+                            <div>
+                              <div class="flex items-center justify-center  w-5 h-5 text-white dark:text-black bg-gray-800 dark:bg-gray-100 rounded-lg sm:w-8 sm:h-8">
+                                ❖
+                              </div>
+                              <p class="mt-4 text-lg font-medium leading-6 text-gray-100">
+                                Machine Learning
+                              </p>
+                            </div>
+                            <div class="mt-4 text-base text-gray-500">
+                              machine learning models such as Linear Regression, Logistic Regression, Decision Trees, Random Forests, Support Vector Machines, K-Nearest Neighbours, K-Means Clustering, Hierarchical Clustering, Xg-boost, Adaboost and many more. Various data-science projects.
+                            </div>
+                          </div>
+                          <div>
+                            <div>
+                              <div class="flex items-center justify-center  w-5 h-5 text-white dark:text-black bg-gray-800 dark:bg-gray-100 rounded-lg sm:w-8 sm:h-8">
+                                ❖
+                              </div>
+                              <p class="mt-4 text-lg font-medium leading-6 text-gray-100">
+                                Deep-Learning
+                              </p>
+                            </div>
+                            <div class="mt-4 text-base text-gray-500">
+                              ANN, CNN, RNN and LSTM. Done projects related to these models such as stock-price forecasting etc.
+                            </div>
+                          </div>
+                          <div>
+                            <div>
+                              <div class="flex items-center justify-center  w-5 h-5 text-white dark:text-black bg-gray-800 dark:bg-gray-100 rounded-lg sm:w-8 sm:h-8">
+                                ❖
+                              </div>
+                              <p class="mt-4 text-lg font-medium leading-6 text-gray-100">
+                                Natural Language processing
+                              </p>
+                            </div>
+                            <div class="mt-4 text-base text-gray-500">
+                              Bag of Words, TF-IDF, Word2Vec and preprocessing steps such as lemmetization tokenization etc. Worked on a project related to anomaly detection.
+                            </div>
+                          </div>
+                          <div>
+                            <div>
+                              <div class="flex items-center justify-center  w-5 h-5 text-white dark:text-black bg-gray-800 dark:bg-gray-100 rounded-lg sm:w-8 sm:h-8">
+                                ❖
+                              </div>
+                              <p class="mt-4 text-lg font-medium leading-6 text-gray-100">
+                                Data Analysis Tools
+                              </p>
+                            </div>
+                            <div class="mt-4 text-base text-gray-500">
+                              Numpy, pandas, Matplotlib and Seaborn, Scikit-Learn.
+                            </div>
+                          </div>
+                          <div>
+                            <div>
+                              <div class="flex items-center justify-center  w-5 h-5 text-white dark:text-black bg-gray-800 dark:bg-gray-100 rounded-lg sm:w-8 sm:h-8">
+                                ❖
+                              </div>
+                              <p class="mt-4 text-lg font-medium leading-6 text-gray-100">
+                                Front end web development
+                              </p>
+                            </div>
+                            <div class="mt-4 text-base text-gray-500">
+                              HTML, CSS, Javascript, bootstrap, Tailwindcss and Reactjs.Done front end work for some projects. 
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </section>
+    </Skills>
+
+
+    <!-- Projects section -->
+
+    <Projects id = "projects">
+        <!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+-->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+<section class="dark:bg-black bg-gray-100">
+  <div
+    class="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-12 lg:me-0 lg:pe-0 lg:ps-8"
+  >
+    <div
+      class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:items-center lg:gap-x-16"
+    >
+      <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right dark:text-gray-100">
+        <h2 class="text-2xl font-medium lg:font-bold lg:text-5xl tracking-tight sm:text-4xl">
+          <br class="hidden sm:block lg:hidden" />
+          Projects
+        </h2>
+
+        <p class="mt-4 text-gray-500">
+          From my fresherman year uptill now I have made several projects, out of which i am mentioning some of those for more of them visit my github profile
+        </p>
+
+        <div class="hidden lg:mt-8 lg:flex lg:gap-4">
+          <button
+            class="prev-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white"
+          >
+            <span class="sr-only">Previous Slide</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-5 w-5 rtl:rotate-180"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5L8.25 12l7.5-7.5"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="next-button rounded-full border border-pink-600 p-3 text-pink-600 hover:bg-pink-600 hover:text-white"
+          >
+            <span class="sr-only">Next Slide</span>
+            <svg
+              class="h-5 w-5 rtl:rotate-180"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 5l7 7-7 7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="-mx-6 lg:col-span-2 lg:mx-0">
+        <div class="swiper-container !overflow-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <blockquote
+                class="flex h-full flex-col justify-between bg-gray-200 dark:bg-gray-900 p-12"
+              >
+                <div>
+                  <div class="flex gap-0.5 text-green-500">
+                    Machine Learning
+                  </div>
+
+                  <div class="mt-4">
+                    <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                      Anomaly Detection
+                    </p>
+
+                    <p class="mt-4 leading-relaxed text-gray-500">
+                        This contest is about Log Anomaly Detection. In computing, logging is the act of keeping a log of events that occur in a computer system, such as problems, errors or just information on current operations. 
+                    </p>
+                  </div>
+                </div>
+
+                <footer class="mt-8 text-4xl text-gray-500">
+                    <a href="https://github.com/pranshu79/AnomalyDetection"><i class="fa-brands fa-github dark:text-gray-100 hover:text-green-500"></i></a>
+                </footer>
+              </blockquote>
+            </div>
+
+            <div class="swiper-slide">
+                <blockquote
+                  class="flex h-full flex-col justify-between  bg-gray-200 dark:bg-gray-900 p-12"
+                >
+                  <div>
+                    <div class="flex gap-0.5 text-green-500">
+                      Web development
+                    </div>
+  
+                    <div class="mt-4">
+                      <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                        Sharehub
+                      </p>
+  
+                      <p class="mt-4 leading-relaxed text-gray-500">
+                        ShareHub is a web-based platform that allows users to exchange stocks, cryptocurrencies, and mutual funds. The platform is built using Next.js.We have also made a user friendly dashboard for the users to keep track of their investments.
+                      </p>
+                    </div>
+                  </div>
+  
+                  <footer class="mt-8 text-4xl text-gray-500">
+                    <a href="https://github.com/pranshu79/sharehub"><i class="fa-brands fa-github dark:text-gray-100 hover:text-green-500"></i></a>
+                  </footer>
+                </blockquote>
+              </div>
+
+              <div class="swiper-slide">
+                <blockquote
+                  class="flex h-full flex-col justify-between bg-gray-200  dark:bg-gray-900 p-12"
+                >
+                  <div>
+                    <div class="flex gap-0.5 text-green-500">
+                      Robotics
+                    </div>
+  
+                    <div class="mt-4">
+                      <p class="text-2xl font-bold text-pink-600 sm:text-3xl">
+                        Robotic Hand
+                      </p>
+  
+                      <p class="mt-4 leading-relaxed text-gray-500">
+                        I have designed and fabricated a robotic hand which would copy human hand gestures. The main components of this model are raspberrypi and servomotors. This was a group project made for an event in last year's summer.
+                      </p>
+                    </div>
+                  </div>
+  
+                  <footer class="mt-8 text-4xl text-gray-500">
+                    <a href="https://github.com/pranshu79/RoboticHand"><i class="fa-brands fa-github dark:text-gray-100 hover:text-green-500"></i></a>
+                  </footer>
+                </blockquote>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 flex justify-center gap-4 lg:hidden">
+      <button
+        aria-label="Previous slide"
+        class="prev-button rounded-full border border-pink-600 p-4 text-pink-600 hover:bg-pink-600 hover:text-white"
+      >
+        <svg
+          class="h-5 w-5 -rotate-180 transform"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 5l7 7-7 7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+
+      <button
+        aria-label="Next slide"
+        class="next-button rounded-full border border-pink-600 p-4 text-pink-600 hover:bg-pink-600 hover:text-white"
+      >
+        <svg
+          class="h-5 w-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 5l7 7-7 7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.swiper-container', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 32,
+      autoplay: {
+        delay: 8000,
+      },
+      breakpoints: {
+        640: {
+          centeredSlides: true,
+          slidesPerView: 1.25,
+        },
+        1024: {
+          centeredSlides: false,
+          slidesPerView: 1.5,
+        },
+      },
+      navigation: {
+        nextEl: '.next-button',
+        prevEl: '.prev-button',
+      },
+    })
+  })
+</script>
+    </Projects>
+
+
+    <!-- Footer section -->
+
+    <Footer id = "contact">
+        <section>
+
+            <footer class="w-full bg-gray-100 dark:bg-black py-16">
+                <div class="md:px-12 lg:px-28">
+                  <div class="container m-auto space-y-6 text-gray-600 dark:text-gray-300 text-center">
+                    <i class="fa-solid fa-p text-pink-600 text-4xl"></i>
+                    <ul
+                      role="list"
+                      class="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
+                    >
+                      <li role="listitem"><a href="#hero" class="hover:text-primary">Home</a></li>
+                      <li role="listitem"><a href="#about" class="hover:text-primary">About</a></li>
+                      <li role="listitem"><a href="#education" class="hover:text-primary">Education</a></li>
+                      <li role="listitem"><a href="#skills" class="hover:text-primary">Skills</a></li>
+                      <li role="listitem"><a href="#projects" class="hover:text-primary">Projects</a></li>
+                    </ul>
+                    <div class="m-auto flex w-max items-center justify-between  space-x-4">
+                      <a href="tel:9693816292" aria-label="call">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="m-auto w-5"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                          ></path>
+                        </svg>
+                      </a>
+                      <a href="mailto:pranshu.kedia.eee21@itbhu.ac.in" aria-label="send mail">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="m-auto w-5"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
+                          ></path>
+                        </svg>
+                      </a>
+                      <a href="https://github.com/pranshu79"><i class="fa-brands fa-github hover:text-pink-600"></i></a>
+                      <a href="https://www.linkedin.com/in/pranshu-kedia-4376b4256/" title="linkedin" target="blank" aria-label="linkedin">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          class="m-auto w-5"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+              
+                    <div class="text-center">
+                      
+                    </div>
+                  </div>
+                </div>
+              </footer>
+                                                  
+        </section>
+    </Footer>
+</body>
+</html>
