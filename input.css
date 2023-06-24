@@ -5,3 +5,10 @@
 html{
     scroll-behavior: smooth;
 }
+.navmenu {
+    display: none;
+  }
+  
+  .navmenu.active {
+    display: flex;
+  }
